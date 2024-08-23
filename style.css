@@ -201,6 +201,7 @@ input#slide3:checked ~ .nav-lines label[for="slide3"] {
     border-radius: 3px;
     padding: 8px;
     width: 100%;
+    color: white;
 }
 
 .right__container input:focus {
