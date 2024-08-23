@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="map.png" type="image/png">
+
+</head>
+<body>
+    <div class="main__container">
+
+        <div class="left__container">
+            <div class="slider">
+                <div class="logo">
+                    <h1>TREK</h1>
+                </div>
+
+
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+
+                <div class="slides">
+                    <div class="slide" id="s1">
+                        <div class="overlay"></div>
+                        <img src="mountain1.jpg" alt="Slide 1">
+                    </div>
+                    <div class="slide" id="s2">
+                        <div class="overlay"></div>
+                        <img src="mountain2.jpg" alt="Slide 2">
+                    </div>
+                    <div class="slide" id="s3">
+                        <div class="overlay"></div>
+                        <img src="mountain3.jpg" alt="Slide 3">
+                    </div>
+                </div>
+
+                <div class="motto">
+                    <p>EXPLORE. TRACK. CONQUER</p>
+                </div>
+                
+
+
+                <div class="nav-lines">
+                    <label for="slide1" class="line"></label>
+                    <label for="slide2" class="line"></label>
+                    <label for="slide3" class="line"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="right__container">
+            <div class="form__container">
+                <div class="header__form">
+                    <h1>Get started</h1>
+                    <h3>Create your account now</h3>
+                </div>
+    
+                <form action="/submit-form" method="post">
+       
+                    <div class="form__item">
+                        <input type="text" id="first-name" name="first-name" placeholder="Name" required>
+                    </div>
+    
+                    <div class="form__item">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+    
+                    <div class="form__item">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+                    </div>
+    
+                    <div class="form__item">
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                    </div>
+    
+                    <div class="form__item">
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+                    </div>
+    
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="/">Log in</a></p>
+    
+                </form>
+            </div>
+
+            <div class="svg">
+                <div class="custom-shape-divider-bottom-1724429824">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
